@@ -1,0 +1,43 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffdbac; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 0;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.title {
+    font-size: 48px;
+    margin-top: 0;
+    color: #ff5733; 
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #ff5733; 
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff8a65;
+}
+
+.joke {
+    margin-top: 40px;
+    font-size: 28px;
+    color: #333;
+}
