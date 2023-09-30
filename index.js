@@ -2,10 +2,6 @@
 const getJokeBtn = document.getElementById("getJokeBtn");
 const jokeText = document.getElementById("jokeText");
 
-const getSyncBtn = document.getElementById("getSyncBtn");
-const syncText = document.getElementById("syncText");
-
-
 getJokeBtn.addEventListener("click", () => {
     jokeText.textContent = "Fetching a joke...";
 
