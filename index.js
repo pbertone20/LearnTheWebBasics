@@ -9,28 +9,21 @@ const syncText = document.getElementById("syncText");
 getJokeBtn.addEventListener("click", () => {
     jokeText.textContent = "Fetching a joke...";
 
-    fetch("https://v2.jokeapi.dev/joke/Programming")
+    fetch("https://api.api-ninjas.com/v1/jokes?limit=1", {
+        headers: { 'X-Api-Key': 'p27En2Xor53jGo/LeOd8SQ==YDK8drrLAPYK7BHb' }
+    })
         .then((response) => {
-
             if (!response.ok) throw new Error("Network response was not ok");
             return response.json();
         })
-
         .then((data) => {
-            if (data.type === "single") jokeText.textContent = data.joke;
-            else if (data.type === "twopart") jokeText.innerHTML = `<p>${data.setup}</p><p> ${data.delivery}</p>`;
-            else jokeText.textContent = "An error occurred while fetching the joke.";
-                
-        })
 
+            jokeText.textContent = data[0].joke;
+
+        })
         .catch((error) => {
             console.error("Error fetching joke:", error);
             jokeText.textContent = "An error occurred while fetching the joke.";
         });
-            
-    });
+});
 
-
-
-
-    
