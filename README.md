@@ -16,9 +16,10 @@ Learn the fundamentals of web development. This project covers the basics from w
 ## Here are some other cool APIs you can check out 🛠️
 
 Check out this link to look at some other cool APIs https://api-ninjas.com/api <br/>
-**Make sure you create an account in order to get you API key!**
+**Make sure you create an account in order to get your API key!**
 
 Here are some of our favourites:
+
 -   Random User API --> https://api-ninjas.com/api/randomuser
 -   Riddles API --> https://api-ninjas.com/api/riddles
 -   Bucket List API --> https://api-ninjas.com/api/bucketlist
