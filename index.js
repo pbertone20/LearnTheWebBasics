@@ -1,25 +1,13 @@
 
-const getJokeBtn = document.getElementById("getJokeBtn");
-const jokeText = document.getElementById("jokeText");
+/*Step 17: obtain DOM objects */
 
-getJokeBtn.addEventListener("click", () => {
-    jokeText.textContent = "Fetching a joke...";
+/*Step 18: Create event listener for button click */
 
-    fetch("https://api.api-ninjas.com/v1/jokes?limit=1", {
-        headers: { 'X-Api-Key': 'p27En2Xor53jGo/LeOd8SQ==YDK8drrLAPYK7BHb' }
-    })
-        .then((response) => {
-            if (!response.ok) throw new Error("Network response was not ok");
-            return response.json();
-        })
-        .then((data) => {
+/*Step 19: Create account with api-ninjas (https://api-ninjas.com/) */
 
-            jokeText.textContent = data[0].joke;
+/*Step 20: Get API url and API Key */
 
-        })
-        .catch((error) => {
-            console.error("Error fetching joke:", error);
-            jokeText.textContent = "An error occurred while fetching the joke.";
-        });
-});
+/*Step 21: Create API Call */
+
+
 

@@ -8,9 +8,14 @@ body {
     overflow: hidden;
 }
 
-.jokeAPI-background{
-    background-color: rgba(218, 248, 255, 255);
+p{
+    font-size: 20px;
+    color: #333;
+    max-width: 300px;
+    line-height: 1.5;
+
 }
+
 
 .navbar {
     background-color: transparent;
@@ -28,42 +33,25 @@ body {
     color: black;
 }
 
+
+.title {
+    /*Step 8: Style .title class*/
+
+}
+
+.jokeAPI-background{
+    /*Step 10: Change Background Color to rgba(218, 248, 255, 255)*/
+}
+
 .container {
-    background-color: white;
-    padding: 4rem 10rem;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /*Step 12: Style .conatiner class */
 }
 
 .centered-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.title {
-    font-size: 30px;
-    font-weight: 100;
+    /*Step 13: Style .centered-content class */
 }
 
 button {
-    background-color: rgba(66, 133, 244, 255);
-    color: #fff;
-    padding: 15px 25px;
-    border: none;
-    cursor: pointer;
-    font-size: 24px;
-    border-radius: 10px;
-    transition: background-color 0.3s ease;
-    margin-top: 20px;
+    /*Step 14: Style button class */
 }
 
-p{
-    font-size: 20px;
-    color: #333;
-    max-width: 300px;
-    line-height: 1.5;
-
-}
