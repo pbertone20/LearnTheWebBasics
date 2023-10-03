@@ -16,7 +16,6 @@ p{
 
 }
 
-
 .navbar {
     background-color: transparent;
     position: absolute;
@@ -44,12 +43,8 @@ p{
 }
 
 .container {
-    /*Step 12: Style .conatiner class */
-}
-
-.centered-content {
-    /*Step 13: Style .centered-content class */
-}
+    /*Step 12: Style .container class */
+}       
 
 button {
     /*Step 14: Style button class */
